@@ -1,4 +1,4 @@
-const { Model, DataType } = require("sequelize");
+const { Model, DataTypes } = require("sequelize");
 
 const sequelize = require("../config/connection");
 
@@ -25,3 +25,5 @@ Category.init(
     modelName: "category",
   }
 );
+
+module.export = Category;
