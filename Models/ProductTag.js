@@ -30,7 +30,7 @@ ProductTag.init(
     {
         sequelize,
         timestamps: false,
-        freexeTableName: true,
+        freezeTableName: true,
         underscore: true,
         modelName: 'product_tag',
 
