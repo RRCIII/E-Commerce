@@ -34,7 +34,7 @@ Product.init (
                 isNumeric: true,
             },
         },
-        categoty_id: {
+        categorty_id: {
             type: DATATYPES.INTERGER,
             references: {
                 model: 'category',
