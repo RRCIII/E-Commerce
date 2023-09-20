@@ -47,7 +47,7 @@ router.post("/", async (req, res) => {
       category_name: req.body.category_name,
     });
     res.status(200).json(newCategory);
-  }catch (err){
+  } catch (err) {
     console.log(err);
     res.status(400).json(err);
   }
@@ -56,14 +56,14 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
   // update a category by its 'id' value
   try {
-    const upDateCategory =  await Category.update(
-      { category_name: req.body.categroy_name},
+    const upDateCategory = await Category.update(
+      { category_name: req.body.categroy_name },
       {
         where: { id: req.params.id },
       }
     );
-    if(!upDateCategory[0]) {
-      res.status(404).json({ message: "No categroy with this id found."})
+    if (!upDateCategory[0]) {
+      res.status(404).json({ message: "No categroy with this id found." });
       return;
     }
     res.status(200).json(upDateCategory);
@@ -76,15 +76,16 @@ router.put("/:id", async (req, res) => {
 router.delete("/:id", async (req, res) => {
   try {
     const deleteCategory = await Category.delete({
-      where: req.params.id
-    }); 
-    if (!deleteCategory){
-      res.status(404).json({ message:"No catergory with the id."});
+      where: req.params.id,
+    });
+    if (!deleteCategory) {
+      res.status(404).json({ message: "No catergory with the id." });
       return;
     }
   } catch (error) {
     console.log(err);
-    res.status(500).json(err);   
+    res.status(500).json(err);
   }
-
 });
+
+module.exports = router;
