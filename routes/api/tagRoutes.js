@@ -53,3 +53,19 @@ router.get("/", async (req, res) => {
     }
   });
   
+  router.put("/:id", async (req, res) => {
+    // update a tag's name by its `id` value
+    try {
+      const updateTag = await Tag.update(req.body, {
+        where: { id: req.params.id },
+      });
+      if (!updateTag[0]) {
+        res.status(404).json({ message: "No tag with the id." });
+        return;
+      }
+      res.status(200).json(updateTag);
+    } catch (err) {
+      console.log(err);
+      res.status(500).json(err);
+    }
+  });
