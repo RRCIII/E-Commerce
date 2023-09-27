@@ -12,7 +12,7 @@ Mock e-commerce backend application that interacts with a database upon calling 
 
 - Required: LTS or latest version of Node.js
 - Required: LTS or latest version of MySQL
-- Required: API testing tool (i.e. Postman, Insomnia, etc.)
+- Required: API testing tool (Insomnia)
 
 ## Usage
 
