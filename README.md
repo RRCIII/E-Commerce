@@ -2,7 +2,7 @@
 
 ## Description
 
-Mock e-commerce backend application that interacts with a database upon calling a specific route. Sequelize.js employed as ORM for initial database setup. APIs tested using Postman.
+Mock e-commerce backend application that interacts with a database upon calling a specific route. Sequelize.js employed as ORM for initial database setup. APIs tested using Insomnia.
 
 ## Video Demonstration of Application
 
