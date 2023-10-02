@@ -6,7 +6,7 @@ Mock e-commerce backend application that interacts with a database upon calling 
 
 ## Video Demonstration of Application
 
-- [Click Here]()
+- [Click Here](https://drive.google.com/file/d/1Q8Q_cpDge0cVq6bMxlxiKw1TFI1LHq8S/view)
 
 ## Installation
 
@@ -18,7 +18,7 @@ Mock e-commerce backend application that interacts with a database upon calling 
 
 - #### Clone the repository:
 
-<img width="450px" src="" />
+<img width="450px" src="git@github.com:RRCIII/E-Commerce.git" />
 
 - #### Inside the repo, make a .env file and define the following process.env variables:
 
@@ -40,12 +40,11 @@ SOURCE ./db/schema.sql;
 - #### Exit MySQL command-line. Then, enter the following commands:
 
 ```
-npm install
 npm run seed
-npm run watch
+npm run start
 ```
 
-- #### The localhost server will be active on port 3001. Test the APIs by accessing the routes within the ./routes/api directory using the appropriate HTTP methods. Utilizing Postman in this example:
+- #### The localhost server will be active on port 3001. Test the APIs by accessing the routes within the ./routes/api directory using the appropriate HTTP methods. Utilizing Insomnia in this example:
 
 <img width="900px" src="" />
 
