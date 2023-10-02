@@ -18,7 +18,7 @@ Mock e-commerce backend application that interacts with a database upon calling 
 
 - #### Clone the repository:
 
-<img width="450px" src="git@github.com:RRCIII/E-Commerce.git" />
+<img width="450px" src="./images/Screenshot_cloned_Repo.png" />
 
 - #### Inside the repo, make a .env file and define the following process.env variables:
 
