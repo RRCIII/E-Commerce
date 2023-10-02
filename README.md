@@ -35,7 +35,7 @@ mysql -u root (-p for password)
 SOURCE ./db/schema.sql;
 ```
 
-<img width="750px" src="" />
+<img width="750px" src="./images/Screenshot_mysql_ecommerce.png" />
 
 - #### Exit MySQL command-line. Then, enter the following commands:
 
@@ -46,7 +46,7 @@ npm run start
 
 - #### The localhost server will be active on port 3001. Test the APIs by accessing the routes within the ./routes/api directory using the appropriate HTTP methods. Utilizing Insomnia in this example:
 
-<img width="900px" src="" />
+<img width="900px" src="./images/Screenshot _insomnia_E-commerce .png" />
 
 ## Credits
 
