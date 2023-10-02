@@ -50,7 +50,7 @@ npm run start
 
 ## Credits
 
-- Coloegues at the UNC coding bootcamp, YouTube, and ChatGPT.
+- Colleagues at the UNC coding bootcamp, YouTube, and ChatGPT.
 
 ## License
 
